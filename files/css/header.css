@@ -16,7 +16,10 @@ header {
 }
 
 .container {
-    width: 92%;
+    display: flex;
+    width: 100%;
+    align-items: center; /* vertically align items */
+    justify-content: space-between; /* push items to opposite ends */
     max-width: 71em;
     margin-left: auto;
     margin-right: auto;
@@ -28,9 +31,9 @@ header {
 
 .site-title {
     color: #3d3d3d;
-    display: block;
+    text-align: left;
     font-family: "Libre Baskerville", "Times New Roman", serif;
-    width: calc( 100% - 65px);
+    width: auto;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 3rem;
@@ -39,9 +42,30 @@ header {
     text-decoration: none;
 }
 
+.site-title#apply {
+    color: #ffffff;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    justify-content: right;
+    font-size: 1em;
+    padding: 0.5em 1em;          /* Add top/bottom padding for a button feel */
+    border: 1px solid #a51417;
+    border-radius: 6px;
+    background-color: #a51417;
+    cursor: pointer;
+    text-decoration: none;       /* Remove underline from <a> */
+    display: inline-block;       /* Allows padding/margin to behave like a button */
+}
+
 .site-title:hover {
     color: #a51417;
     text-decoration: underline;
+}
+#apply:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    border: 1px solid #bf2d30;
+    background-color: #bf2d30;
 }
 
 
