@@ -46,6 +46,7 @@ header {
     color: #ffffff;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
+    justify-content: right;
     font-size: 1em;
     padding: 0.5em 1em;          /* Add top/bottom padding for a button feel */
     border: 1px solid #a51417;
@@ -63,6 +64,8 @@ header {
 #apply:hover {
     color: #ffffff;
     text-decoration: underline;
+    border: 1px solid #bf2d30;
+    background-color: #bf2d30;
 }
 
 
