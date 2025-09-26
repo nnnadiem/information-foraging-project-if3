@@ -89,8 +89,21 @@ main li {
   font-size: 1.1rem;
   color: #444;
   line-height: 1.6;
+  margin-top: 1rem; 
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.classroom-goals {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
   margin-top: 1rem;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.classroom-goals ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
 }
 
 .announcements h4 {
