@@ -2,28 +2,28 @@
 @import url("side_menu.css");
 
 main ul {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  clear: both;
+  overflow: hidden;
 }
 
 .classroom img {
-    float: left;
-    margin-right: 2.5em;
+  float: left;
+  margin-right: 2.5em;
 }
 
 .classroom p {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 .classroom-grid {
@@ -173,7 +173,7 @@ main li {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .classroom-panel {
     margin: 0 auto;
     max-width: 400px;
@@ -183,11 +183,11 @@ main li {
     grid-template-columns: 1fr;
     grid-column: 1;
   }
-  
+
   .enrichment-panel img {
     grid-column: 1;
   }
-  
+
   .enrichment-panel .panel-content {
     grid-column: 1;
   }
